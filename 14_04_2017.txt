@@ -1,0 +1,10 @@
+To find files containing 'text_pattern' in all files in a specified path :
+
+Linux : 
+  grep -rnw '/path/to/somewhere/' -e "pattern"
+  
+Windows :
+  1] find / -type f -exec grep -H 'text-to-find-here' {} \;
+  2] findstr /m /s /c:"text_pattern" *.*
+  
+  
