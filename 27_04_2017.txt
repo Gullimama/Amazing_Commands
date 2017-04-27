@@ -1,0 +1,12 @@
+Amazing Windows Trick :
+
+Well Open up WinExp and go to any directory. In the title/search bar where you see the directory path, just delete everything and type "cmd"
+and hit enter button. TaDa, a command prompt opens up with cd'd into that directory
+
+Windows Command : 
+
+echo %cd%
+
+Linux Command :
+
+pwd
