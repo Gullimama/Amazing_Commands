@@ -1,0 +1,5 @@
+Windows command to find the occurance of a string in a file : 
+
+findstr /c:"@" mail.txt | find /c /v "GarbageStringDefNotInYourResults"
+
+link : http://stackoverflow.com/questions/9307187/how-to-find-the-number-of-occurrences-of-a-string-in-file-using-windows-command
