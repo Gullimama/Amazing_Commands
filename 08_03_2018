@@ -1,0 +1,6 @@
+# touch a file for comparator reference
+touch -t YYMMDDhhmm.SS /tmp/timestamp
+touch –date "2012-11-07" /tmp/find_after
+
+# find the file with newer date
+find directory -type f -newer /tmp/timestamp
