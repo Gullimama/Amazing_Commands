@@ -1,0 +1,10 @@
+Using xxd is better for this job:
+
+xxd -p -l 50 -seek 10 file.bin
+From man xxd:
+
+-p | -ps | -postscript | -plain
+    output in postscript continuous hexdump style. Also known as plain hexdump style.
+
+-l len | -len len
+    stop after writing <len> octets.
