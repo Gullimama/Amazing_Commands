@@ -1,0 +1,3 @@
+zip with java installed
+
+jar -cMf targetArchive.zip sourceDirectory
