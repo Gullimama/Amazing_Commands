@@ -1,0 +1,9 @@
+windows command for killing a process with PID and finding which PID is using port number: 
+
+netstat -ano | findstr 8080
+
+get the PID from it. 
+
+taskkill /PID 8080 /F
+
+/F for force
