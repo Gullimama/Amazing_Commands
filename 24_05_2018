@@ -1,0 +1,6 @@
+FOR %i IN (*.jar) DO mvn install:install-file -DgroupId=webtopJars -DartifactId=%~ni -Dpackaging=jar -Dversion=6.8 -Dfile=%i
+
+above command is just amazing, for all .jar files in the directory, installes the jar into webtopJars groupID with artifact ID as the name of the file
+and jar as the extrension iwth version as 6.8
+
+%~ni = filename without extension
