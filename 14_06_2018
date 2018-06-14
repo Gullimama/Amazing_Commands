@@ -1,0 +1,8 @@
+Windows: 
+  certutil -hashfile filename MD5
+  certutil -hashfile filename SHA1
+ 
+Linux: 
+  md5sum filename
+  sha1sum filename
+
