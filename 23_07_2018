@@ -1,0 +1,1 @@
+doskey v=wmic logicaldisk get caption
